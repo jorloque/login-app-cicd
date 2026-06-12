@@ -1,4 +1,6 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; 
+margin: 0; 
+padding: 0; }
 
 :root {
   --primary: #2563eb;
@@ -8,7 +10,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #111827; --card: #1f2937; }
+  :root { --bg: #111827; 
+    --card: #1f2937; 
+}
   body  { color: #f9fafb; }
 }
 
@@ -53,6 +57,10 @@ button { width: 100%;
 
 button:hover { filter: brightness(1.1); }
 
-.error { color: var(--error); font-size: .85rem; min-height: 1.1em; }
+.error { color: var(--error); 
+    font-size: .85rem; 
+    min-height: 1.1em; }
 
-.msg   { text-align: center; margin-top: .75rem; font-weight: 500; }
+.msg   { text-align: center; 
+    margin-top: .75rem; 
+    font-weight: 500; }
