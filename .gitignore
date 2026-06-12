@@ -1,0 +1,40 @@
+# ─── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# ─── Node.js / npm ───────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ─── Tests y cobertura ───────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── Editores ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# ─── Variables de entorno ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Sistema operativo (Windows / Linux) ─────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
