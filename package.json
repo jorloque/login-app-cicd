@@ -1,0 +1,33 @@
+{
+  "name": "login-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorloque/login-app-cicd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jorloque/login-app-cicd/issues"
+  },
+  "homepage": "https://github.com/jorloque/login-app-cicd#readme",
+  "devDependencies": {
+    "eslint": "^10.4.1",
+    "html-validate": "^11.5.3",
+    "jest": "^30.4.2",
+    "stylelint": "^17.13.0"
+  }
+}
